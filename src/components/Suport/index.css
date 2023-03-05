@@ -1,0 +1,10 @@
+.suport {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
