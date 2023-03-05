@@ -1,10 +1,123 @@
-.suport {
+
+.group {
     position: absolute;
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: 600px;  
+    bottom: 13%;  
 }
 
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+/* TOWER PINS START */
+
+.pin1 {
+    position: relative;
 }
+
+.pin1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 300px;
+    bottom: 0;
+    left: 80px;
+    background: linear-gradient(to left bottom, #3c231c, #b58d6d, #4c2424, #4c2c23);
+    border-radius: 15px 15px 0 0;
+}
+
+.pin2 {
+    position: relative;
+}
+
+.pin2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 300px;
+    bottom: 0;
+    left: 80px;
+    background: linear-gradient(to left bottom, #3c231c, #b58d6d, #4c2424, #4c2c23);
+    border-radius: 15px 15px 0 0;
+}
+
+.pin3 {
+    position: relative;
+}
+
+.pin3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 300px;
+    bottom: 0;
+    left: 80px;
+    background: linear-gradient(to left bottom, #3c231c, #b58d6d, #4c2424, #4c2c23);
+    border-radius: 15px 15px 0 0;
+}
+
+/* TOWER PINS FINISH */
+
+/* DISKS START */
+
+.disk {
+    position: absolute;
+    height: 20px;
+    width: 180px;
+    border-radius: 15px;
+    z-index: 1000;
+    display: flex;
+}
+
+.disk1 {
+    background: linear-gradient(to bottom, #25baed, #ffff, #25baed);
+}
+.disk2 {
+    background: linear-gradient(to bottom, #444190, #7ab1c5, #444190);
+    width: 150px;
+    margin-left: 15px;
+}
+.disk3 {
+    background: linear-gradient(to bottom, #1a359b, #7ab1c5, #1a359b);
+    width: 120px;
+    margin-left: 30px;
+}
+.disk4 {
+    background: linear-gradient(to bottom, #2084c0, #7ab1c5, #2084c0);
+    width: 90px;
+    margin-left: 45px;
+}
+.disk5 {
+    background: linear-gradient(to bottom, #164969, #7ab1c5, #164969);
+    width: 60px;
+    margin-left: 60px;
+}
+
+.pins1 {
+    left: 0;
+}
+.pins2 {
+    left: 200px;
+}
+.pins3 {
+    left: 400px;
+}
+.pos1 {
+    bottom: 110px;
+}
+.pos2 {
+    bottom: 90px;
+}
+.pos3 {
+    bottom: 70px;
+}
+.pos4 {
+    bottom: 50px;
+}
+.pos5 {
+    bottom: 30px;
+}
+
+/* DISKS FINISH */

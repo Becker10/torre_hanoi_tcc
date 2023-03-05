@@ -13,32 +13,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content {
+  height: 100vh;
+  z-index: 2;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 0px !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page p {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px 0 5px 0;
+  word-spacing: normal;
+  font-size: 1em;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 ::before,
 ::after {
   box-sizing: border-box;
-}
-
-.main-content {
-  padding-left: 270px;
-}
-
-.container {
-  max-width: 1100px;
-  width: 100%;
-  margin: auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
-  position: relative;
 }
 
 /* GRIDS E TAMANHOS START */
@@ -48,63 +60,108 @@ code {
   display: inline-block;
   width: 100%;
   height: 100%;
-  align-content: center; 
-} 
-.align-left{
+  align-content: center;
+}
+
+.align-left {
   text-align: left !important;
 }
 
-[class*="tamanho"]{
-display:inline-block;
-margin: 0 0 5px 0px;
+[class*="tamanho"] {
+  display: inline-block;
+  margin: 0 0 5px 0px;
 }
 
-[class*="tamanho"] > *{
-margin-right: 10px !important;
+[class*="tamanho"]>* {
+  margin-right: 10px !important;
 }
 
-[class*="tamanho"] img{width:100%;}
+[class*="tamanho"] img {
+  width: 100%;
+}
 
-.tamanho1{width:9.9%;}
+.tamanho1 {
+  width: 9.9%;
+}
 
-.tamanho2{width:19.9%;}
+.tamanho2 {
+  width: 19.9%;
+}
 
-.tamanho3{width:29.9%;}
+.tamanho3 {
+  width: 29.9%;
+}
 
-.tamanho4{width:39.9%;}
+.tamanho4 {
+  width: 39.9%;
+}
 
-.tamanho5{width:49.9%;}
+.tamanho5 {
+  width: 49.9%;
+}
 
-.tamanho6{width:59.9%;}
+.tamanho6 {
+  width: 59.9%;
+}
 
-.tamanho7{width:69.9%;}
+.tamanho7 {
+  width: 69.9%;
+}
 
-.tamanho8{width:79.9%;}
+.tamanho8 {
+  width: 79.9%;
+}
 
-.tamanho9{width:89.9%;}
+.tamanho9 {
+  width: 89.9%;
+}
 
-.tamanho10{width:99.9%;}
+.tamanho10 {
+  width: 99.9%;
+}
 
-.tamanho-responsivo0{display:none;}
+.tamanho-responsivo0 {
+  display: none;
+}
 
-.tamanho-responsivo1{width:9.9%;}
+.tamanho-responsivo1 {
+  width: 9.9%;
+}
 
-.tamanho-responsivo2{width:19.9%;}
+.tamanho-responsivo2 {
+  width: 19.9%;
+}
 
-.tamanho-responsivo3{width:29.9%;}
+.tamanho-responsivo3 {
+  width: 29.9%;
+}
 
-.tamanho-responsivo4{width:39.9%;}
+.tamanho-responsivo4 {
+  width: 39.9%;
+}
 
-.tamanho-responsivo5{width:49.9%;}
+.tamanho-responsivo5 {
+  width: 49.9%;
+}
 
-.tamanho-responsivo6{width:59.9%;}
+.tamanho-responsivo6 {
+  width: 59.9%;
+}
 
-.tamanho-responsivo7{width:69.9%;}
+.tamanho-responsivo7 {
+  width: 69.9%;
+}
 
-.tamanho-responsivo8{width:79.9%;}
+.tamanho-responsivo8 {
+  width: 79.9%;
+}
 
-.tamanho-responsivo9{width:89.9%;}
+.tamanho-responsivo9 {
+  width: 89.9%;
+}
 
-.tamanho-responsivo10{width:99.9%;}
+.tamanho-responsivo10 {
+  width: 99.9%;
+}
 
 /* GRIDS E TAMANHOS FINISH */
