@@ -1,11 +1,10 @@
-
 .group {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 400px;
-    width: 600px;  
-    bottom: 13%;  
+    width: 600px;
+    bottom: 13%;
 }
 
 /* TOWER PINS START */
@@ -69,26 +68,31 @@
     border-radius: 15px;
     z-index: 1000;
     display: flex;
+    transition: all 1s;
 }
 
 .disk1 {
     background: linear-gradient(to bottom, #25baed, #ffff, #25baed);
 }
+
 .disk2 {
     background: linear-gradient(to bottom, #444190, #7ab1c5, #444190);
     width: 150px;
     margin-left: 15px;
 }
+
 .disk3 {
     background: linear-gradient(to bottom, #1a359b, #7ab1c5, #1a359b);
     width: 120px;
     margin-left: 30px;
 }
+
 .disk4 {
     background: linear-gradient(to bottom, #2084c0, #7ab1c5, #2084c0);
     width: 90px;
     margin-left: 45px;
 }
+
 .disk5 {
     background: linear-gradient(to bottom, #164969, #7ab1c5, #164969);
     width: 60px;
@@ -98,26 +102,48 @@
 .pins1 {
     left: 0;
 }
+
 .pins2 {
     left: 200px;
 }
+
 .pins3 {
     left: 400px;
 }
+
+.pos {
+    bottom: 270px;
+    animation: float 3s ease-in-out infinite alternate;
+}
+
 .pos1 {
     bottom: 110px;
 }
+
 .pos2 {
     bottom: 90px;
 }
+
 .pos3 {
     bottom: 70px;
 }
+
 .pos4 {
     bottom: 50px;
 }
+
 .pos5 {
     bottom: 30px;
 }
 
 /* DISKS FINISH */
+
+/* ANIMATION DISK START*/
+
+@keyframes float {
+    50% {
+        transform: translateY(-1vmin);
+    }
+}
+
+/* ANIMATION DISK FINISH*/

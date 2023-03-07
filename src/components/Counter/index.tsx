@@ -9,8 +9,8 @@ const BoxCounter = () => {
                 <div className="box-count">150</div>
             </div>
             <div className="box-counter-min">
+                <div className="box-count min">150</div>
                 <div className="box-title">Movimentos minímos</div>
-                <div className="box-count">150</div>
             </div>
         </div>
     )

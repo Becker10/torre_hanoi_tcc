@@ -5,9 +5,9 @@ const BoxText = () => {
   return (
     <div className="box-text">
       <form action="" className="box-text-area">
-        <textarea className="box-text-input" name="nome" id="name" placeholder="digite as instruções" />
+        <textarea className="box-text-input" name="nome" id="move" placeholder="digite as instruções" />
       </form>
-      <button className="box-text-btn" type="submit" value="enviar">SUBMIT</button>
+      <button className="box-text-btn" id="btn">SUBMIT</button>
     </div>
   )
 }
