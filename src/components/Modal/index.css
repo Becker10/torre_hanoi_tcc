@@ -1,0 +1,75 @@
+.modal-btn {
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-box {
+  display: block;
+  background: white;
+  width: 40%;
+  height: 80%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.modals {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.modal-title {
+  padding-bottom: 2vh;
+  padding-top: 3vh;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color: #30395a;
+  cursor: default;
+  border-bottom:2px solid #ccc;
+}
+
+.modal-title:hover {
+  transform: scale(1.10);
+  cursor: default;
+}
+
+.modal-content {
+  overflow-y: auto;
+  width: 100%;
+  height: 59vh;
+  text-align: justify;
+  padding-right: 18px;
+  margin-top: 3vh;
+  padding-left: 8px;
+
+}
+
+.modal-content::-webkit-scrollbar {
+  width: .60rem;
+  background-color: #ccc;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #30395a 50%, #3f5ca7 50%);
+  border-radius: .5rem;
+}

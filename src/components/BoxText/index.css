@@ -4,13 +4,22 @@
     height: auto;
     padding-top: 2vh;
     position: absolute;
-    bottom: 12%;
+    bottom: 5%;
     padding: 5px 5px 5px 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+.box-text-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    position: relative;
 }
 
 .box-text-area {
@@ -36,6 +45,10 @@
     font-size: 1rem;
 }
 
+.box-text p {
+    text-align: center;
+}
+
 textarea {
     resize: none;
 }
@@ -48,10 +61,6 @@ textarea::-webkit-scrollbar {
 textarea::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to bottom, #30395a 50%, #3f5ca7 50%);
     border-radius: .5rem;
-}
-
-.box-text p {
-    text-align: center;
 }
 
 /* .box-text-btn {
@@ -70,6 +79,8 @@ textarea::-webkit-scrollbar-thumb {
 .box-text-btn:hover {
     transform: scale(1.10);
 } */
+
+/* BUTTON SUBMIT START */
 
 .box-text-btn {
     font-size: 18px;
@@ -132,3 +143,25 @@ textarea::-webkit-scrollbar-thumb {
     right: -0.4em;
     filter: brightness(0.8);
 }
+
+/* BUTTON SUBMIT FINISH */
+
+/* BUTTON INFO START */
+
+.box-text-btn-info {
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to bottom, #3f5ca7 50%, #21215f 50%);
+    color: #fff;
+}
+
+.box-text-btn-info:hover {
+    transform: scale(1.30);
+} 
+
+/* BUTTON INFO FINISH */
