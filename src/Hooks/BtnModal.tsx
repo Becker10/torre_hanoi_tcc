@@ -1,6 +1,6 @@
 import "../components/Modal/index.css";
 import Modal from "../components/Modal";
-import useModal from ".";
+import useModal from "../hooks";
 
 export default function BtnModal() {
   const { isOpen, toggle } = useModal();

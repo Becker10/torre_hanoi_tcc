@@ -21,6 +21,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../assets/background_all.jpg");
+  background-size: cover;
 }
 
 .page {
@@ -38,6 +40,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("../assets/backbottom.png");
   background-size: cover;
+  background-color: #f5f3f3;
 }
 
 .page p {

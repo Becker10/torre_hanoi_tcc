@@ -14,7 +14,7 @@ const Background = () => {
         <div className="suporte tamanho9">
           <img src={img2} alt="" />
         </div>
-        <div className="tamanho10">
+        <div>
           <img src={img1} alt="" />
         </div>
       </div>

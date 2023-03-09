@@ -61,14 +61,14 @@
 
 /* DISKS START */
 
-.disk {
+.disks {
     position: absolute;
     height: 20px;
     width: 180px;
     border-radius: 15px;
     z-index: 1000;
     display: flex;
-    transition: all 1s;
+    transition: left 1s , bottom 1s 1s;
 }
 
 .disk1 {
