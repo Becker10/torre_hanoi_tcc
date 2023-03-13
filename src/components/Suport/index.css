@@ -61,24 +61,26 @@
 
 /* DISKS START */
 
-.disk {
+.disks {
     position: absolute;
     height: 20px;
     width: 180px;
     border-radius: 15px;
     z-index: 1000;
     display: flex;
-    transition: all 1s;
+    transition: left 1s , bottom 1s 1s;
 }
 
 .disk1 {
     background: linear-gradient(to bottom, #25baed, #ffff, #25baed);
+    width: 60px;
+    margin-left: 60px;
 }
 
 .disk2 {
     background: linear-gradient(to bottom, #444190, #7ab1c5, #444190);
-    width: 150px;
-    margin-left: 15px;
+    width: 90px;
+    margin-left: 45px;
 }
 
 .disk3 {
@@ -89,14 +91,12 @@
 
 .disk4 {
     background: linear-gradient(to bottom, #2084c0, #7ab1c5, #2084c0);
-    width: 90px;
-    margin-left: 45px;
+    width: 150px;
+    margin-left: 15px;
 }
 
 .disk5 {
     background: linear-gradient(to bottom, #164969, #7ab1c5, #164969);
-    width: 60px;
-    margin-left: 60px;
 }
 
 .pins1 {
@@ -111,17 +111,18 @@
     left: 400px;
 }
 
-.pos {
-    bottom: 270px;
+.pos0 {
+    bottom: 270px !important;
     animation: float 3s ease-in-out infinite alternate;
 }
 
 .pos1 {
-    bottom: 110px;
+    bottom: 30px;
 }
 
 .pos2 {
-    bottom: 90px;
+ 
+    bottom: 50px;
 }
 
 .pos3 {
@@ -129,11 +130,11 @@
 }
 
 .pos4 {
-    bottom: 50px;
+    bottom: 90px;
 }
 
 .pos5 {
-    bottom: 30px;
+    bottom: 110px;
 }
 
 /* DISKS FINISH */

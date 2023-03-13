@@ -8,7 +8,6 @@ import './Suport/index.css';
 
 //Styling
 const StyledDiv = styled.div`
-   
 `
 
 function App() {
