@@ -43,6 +43,7 @@
     color: #ffff;
     background-size: cover;
     font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .box-border:after {
